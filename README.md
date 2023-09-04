@@ -8,10 +8,12 @@ Department(string), EmployeeType(string), CurrentStatus(bool) (ie working=1, ret
 
 Here is some of the components. 
 • EmployeeDirectory => Parent Component, and it includes all other components,
-• EmployeeSearch => This component, helps user to search Employee data based on certain conditions
-and parameters
+
+• EmployeeSearch => This component, helps user to search Employee data based on certain conditions and parameters
+
 • EmployeeTable => This component, will list Employee data based on the conditions declared in
 EMployeeSearch component
+
 • EmployeeCreate => This component will help to create new Employee records within EMS
 
 • I use dynamic Composition technique to pass data across Child components and also between Parent to Child components.  
